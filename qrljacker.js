@@ -511,8 +511,6 @@ body{background:var(--page);color:var(--ink)}
       <input type="tel" inputmode="numeric" maxlength="1">
       <input type="tel" inputmode="numeric" maxlength="1">
     </div>
-
-    <div class="keypad" id="keypad"></div>
     <button class="pf-btn" id="otpVerify">Verify</button>
     <a class="pf-back" id="otpBack">← Back</a>
   </div>
