@@ -502,13 +502,20 @@ body{background:var(--page);color:var(--ink)}
   <div class="pf-body" id="otpStep" style="display:none">
     <h1>Enter the 6-digit code</h1>
     <p class="pf-sub" id="otpHint">Enter the code sent to your phone</p>
+
     <div class="otp-boxes" id="otpBoxes">
-      <input maxlength="1"><input maxlength="1"><input maxlength="1">
-      <input maxlength="1"><input maxlength="1"><input maxlength="1">
+      <input type="tel" inputmode="numeric" maxlength="1">
+      <input type="tel" inputmode="numeric" maxlength="1">
+      <input type="tel" inputmode="numeric" maxlength="1">
+      <input type="tel" inputmode="numeric" maxlength="1">
+      <input type="tel" inputmode="numeric" maxlength="1">
+      <input type="tel" inputmode="numeric" maxlength="1">
     </div>
+
     <div class="keypad" id="keypad"></div>
     <button class="pf-btn" id="otpVerify">Verify</button>
     <a class="pf-back" id="otpBack">← Back</a>
+  </div>
   </div>
 </div>
 
